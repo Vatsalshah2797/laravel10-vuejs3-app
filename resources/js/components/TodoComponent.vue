@@ -28,7 +28,6 @@
                                     <td> {{ todo.name }} </td>
                                     <td> 
                                         <button type="button" class="btn btn-warning ml-10" @click="editTodo(todo.id, --index)">Edit </button>
-
                                         <button type="button" class="btn btn-danger mr-4" @click="deleteTodo(todo.id, --index)"> Delete </button>
                                     </td>
                                 </tr>
